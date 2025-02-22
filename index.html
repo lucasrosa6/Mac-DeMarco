@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Mac DeMarco</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/disco.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="Imagens/Logo - Mac DeMarco.png" title="Logotipo escrito Mac DeMarco, do álbum One Wayne G" alt="Logotipo escrito Mac DeMarco" class="nav-img" loading="lazy">
+            <img src="Imagens/Disco - One Wayne G.png" alt="Disco do Álbum One Wayne G" title="Disco do Álbum One Wayne G, girando em 360° sem parar" class="disco-giratorio">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul> 
+            
+            <div id="acessibilidade">
+                <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
+                <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+
+            </div>
+
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="h2-inicio">Web Site - For</h1>
+                    <img src="Imagens/Logo - Mac DeMarco.png" title="Logotipo escrito Mac DeMarco criada pelo autor do site" alt="Logotipo escrito Mac DeMarco" class="mb-3" width="600"
+                        height="278" loading="lazy">
+                        <div class="box-quero-conhecer">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2 align="center" class="h2-mac">Mac DeMarco</h2>
+                    <p class="p-2">Mac DeMarco é um cantor, compositor e multi-instrumentista canadense conhecido por seu estilo lo-fi, indie rock e uma abordagem descontraída tanto na música quanto na vida. Ele ganhou notoriedade no início dos anos 2010 com álbuns como 2 (2012) e Salad Days (2014), que trouxeram um som relaxado e melodias cativantes, com letras que frequentemente abordam temas do cotidiano, amor e autodescoberta. Seu jeito irreverente e humor peculiar também contribuíram para sua popularidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2 align="center" class="h2-mac">One Wayne G</h2>
+                    <p class="p-22">Este álbum é uma coletânea gigantesca lançada por surpresa em abril de 2023, contendo 199 faixas (!!) que totalizam mais de 8 horas de música. As músicas são, em sua maioria, gravações caseiras e demos instrumentais que DeMarco produziu entre 2018 e 2023. Os títulos das faixas são, em grande parte, datas, sugerindo que elas foram nomeadas de acordo com o dia em que foram gravadas.
+
+                        Diferente de seus álbuns mais tradicionais, One Wayne G funciona quase como um arquivo pessoal do artista, permitindo aos fãs mergulharem em seu processo criativo. Algumas faixas são apenas ideias cruas, enquanto outras poderiam facilmente ser desenvolvidas em músicas completas. Há momentos que remetem ao seu clássico som de guitarra indie e também explorações mais experimentais.
+                        
+                        A recepção ao álbum foi mista: alguns fãs adoraram a experiência de ouvir o "diário musical" de DeMarco, enquanto outros acharam o tamanho excessivo. No entanto, o projeto reforça a autenticidade e a mentalidade DIY que sempre fizeram parte do estilo dele.
+                        
+                        Curiosidade: o nome One Wayne G pode ser uma referência ao jogador de hóquei Wayne Gretzky, um dos maiores da história do esporte e um ídolo no Canadá.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/mac 1.jpg" title="Foto do Cantor Mac DeMarco - Ele sa uma toca, é loiro, e tem os dentes separados" alt="Foto do Cantor Mac DeMarco"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/mac 2.jpg" title="Foto do Grupo que ajuda o Mac DeMarco fazer seus shows" alt="Foto do Grupo que ajuda o Mac DeMarco fazer seus shows" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Yaza Code Studio. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

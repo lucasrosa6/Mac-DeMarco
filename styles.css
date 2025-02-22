@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #FF862A;
+}
+
+.nav-img {
+    width: 20rem;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    background-color: #93beff;
+}
+
+.h2-inicio{
+    font-weight: bold;
+    color: white;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+    color: #b9b321;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+.h2-mac {
+    color: black;
+    margin-top: -3em;
+}
+
+.nav a:hover {
+    color: #fffca0;
+    font-weight: 600;
+}
+
+.p-22{
+    padding-top: 1em;
+}
+
+header {
+    background-color: #080572;
+}
+
+.disco-giratorio {
+    width: 100px;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-item {
+    color: white;
+}
+
+
+.nav-link {
+    color: #b9b321;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 20%
+}
+
+.inicio-fundo {
+    background-color: #080572;
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.mb-3{
+    width: 100%;
+}
+
+#aumentar-fonte {
+    margin-top: 15%;
+    background-color: #080572;
+    color: #b9b321;
+    border-color: #080572;
+    font-size: 2rem;
+}
+
+#aumentar-fonte:hover {
+    font-size: 2.1rem;
+    color: #fffca0;
+}
+
+
+#diminuir-fonte {
+    margin-top: 15%;
+    background-color: #080572;
+    color: #b9b321;
+    border-color: #080572;
+    font-size: 2rem;
+}
+
+#diminuir-fonte:hover {
+    font-size: 2.1rem;
+    color: #fffca0;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.botao-inicio {
+    background-color: #b9b321;
+    color: #080572;
+    border-radius: 30px;
+    border: none;
+    width: 30%;
+    height: 3em;
+    align-content: center;
+}
+
+.box-quero-conhecer{
+    width: 100%;
+    text-align: center;
+}
+
+.botao-inicio:hover {
+    background-color: #93beff;
+    color: #080572;
+}
+
+.display-4 {
+    text-shadow: -5px 5px black;
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('Imagens/Disco\ -\ One\ Wayne\ G.png') top right no-repeat,
+        url('Imagens/Disco\ -\ One\ Wayne\ G.png') bottom left no-repeat;
+    background-size: 180px 180px;
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: black;
+}
+
+#galeria {
+    background-color: #080572;
+    width: 100%;
+    margin-bottom: -100px;
+}
+
+.text-center pt-5 {
+    color: white;
+}
+
+.pt-5{
+    color: #b9b321;
+}
+
+.rounded-5{
+    border: #93beff 10xp solid;
+
+}
+
+#contato {
+    background-color: #080572;
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #b1c4ff;
+    padding: 2rem;
+    border-radius: 10px #beff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #93beff;
+    border: none;
+    font-weight: bold;
+    color: black
+}
+
+.formulario button:hover {
+    background-color: #080572;
+    font-weight: 600;
+    border: none;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #F1EDEF;
+}
