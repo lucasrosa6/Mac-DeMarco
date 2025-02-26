@@ -229,3 +229,47 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 28px;
+    z-index: 1000;
+    background-color: #080572;
+    color: #b9b321;
+}
+
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #080572;
+    color: #b9b321;
+}
+
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+    background-color: #080572;
+    color: #b9b321;
+}
+
+
+.apresenta-lista{
+    display: none;
+    background-color: #080572;
+    color: #b9b321;
+}
+
+#botao-acessibilidade{
+    background-color: #080572;
+    color: #b9b321;
+    border: #b9b321 1px solid;
+}
